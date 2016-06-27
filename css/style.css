@@ -1,0 +1,38 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'courier new', helvetica;
+	z-index: 5;
+
+}
+
+h1,h2,h3 {
+	font-family: 'Avenir LT Std 95 Black Oblique', helvetica;
+}
+
+canvas {
+	position: absolute;
+	top:0;
+	z-index: -50;
+}
+
+#main-header>div {
+	height: auto;
+	border-bottom: 14px solid black;
+}
+
+
+#main-header>div:hover {
+	border-bottom:14px solid lightcoral;
+}
+
+#mid-section>div {
+	height: 50vh;
+	border-bottom: 10px solid black;
+}
+
+#mid-section>div>h3:hover {
+	color: lightcoral;
+} 
