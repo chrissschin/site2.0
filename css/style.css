@@ -1,38 +1,35 @@
 html {
-	height: 100%;
+	background-color: #000;
+	height:100%;
 }
 
 body {
-	font-family: 'courier new', helvetica;
-	z-index: 5;
+	background-color: black;
+	display:block;
+	height: 100%;
+	background-image: url(../dumb.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#main-header {
+	text-align:center;
+	height:500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 }
 
 h1,h2,h3 {
+	color: transparent;
+	-webkit-text-stroke: 1px #ededed;
 	font-family: 'Avenir LT Std 95 Black Oblique', helvetica;
+	/*font-family: 'Avenir LT Std 95 Black', helvetica;*/
+
 }
 
-canvas {
-	position: absolute;
-	top:0;
-	z-index: -50;
+h1 {
+	font-size: 6em;
+	letter-spacing: -5px;
 }
-
-#main-header>div {
-	height: auto;
-	border-bottom: 14px solid black;
-}
-
-
-#main-header>div:hover {
-	border-bottom:14px solid lightcoral;
-}
-
-#mid-section>div {
-	height: 50vh;
-	border-bottom: 10px solid black;
-}
-
-#mid-section>div>h3:hover {
-	color: lightcoral;
-} 
